@@ -1,0 +1,57 @@
+.card {
+    display: flex;
+    flex-direction: column; /* Flex column layout */
+    justify-content: space-between; /* Ensure content is spaced evenly */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: 2rem;
+    width: 320px;
+    border-radius: 0.25rem;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 1.5rem;
+    box-sizing: border-box; /* Add this to include padding in width */
+}
+
+.header {
+    margin-bottom: 0.75rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+}
+
+.desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgba(156, 163, 175, 1);
+    flex-grow: 1; /* Allow description to take up remaining space */
+}
+
+.action {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgba(167, 139, 250, 1);
+    padding: 0.75rem 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: rgba(17, 24, 39, 1);
+    margin-top: auto; /* Push button to bottom */
+}
+
+
+  .card {
+    background-color: rgba(17, 24, 39, 1) !important;
+}

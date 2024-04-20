@@ -1,0 +1,15 @@
+footer a, div, li {
+    color: white; /* Sets the text color to white */
+}
+footer a:hover {
+    color: pink; /* Keeps the text color white when hovered */
+    
+}
+footer ul {
+    list-style-type: none; /* Removes bullet points from list items in the footer */
+    padding-left: 0; /* Removes the default padding on the left side of the list */
+}
+
+footer li {
+    margin-left: 0; /* Ensures list items are flush with the left margin */
+}
