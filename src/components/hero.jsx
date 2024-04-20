@@ -1,5 +1,4 @@
 import heroBg from '../assets/img/hero-bg.jpg';
-import { ContactUs } from './contactUs';
 import { NoRide } from './noRide';
 import NoWait from './noWait';
 import OurService from './ourService';
